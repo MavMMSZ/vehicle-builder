@@ -21,8 +21,17 @@ class Truck extends Vehicle implements AbleToTow {
     wheels: Wheel[];
     towingCapacity: number;
   // TODO: Create a constructor that accepts the properties of the Truck class
-  constructor (vin: string, color: string, make: string, model: string, year: number, weight: number, topSpeed: number, wheels: Wheel[], towingCapacity: number)
-  {
+  constructor (
+    vin: string, 
+    color: string, 
+    make: string, 
+    model: string, 
+    year: number, 
+    weight: number, 
+    topSpeed: number, 
+    wheels: Wheel[], 
+    towingCapacity: number
+  ) {
     super();
     this.vin = vin;
     this.color = color;
